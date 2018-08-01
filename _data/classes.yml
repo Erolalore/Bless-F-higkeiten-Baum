@@ -8,7 +8,7 @@
   page: berserker
 - name: Ranger
   page: ranger
-- name: Assasine
-  page: assa
-- name: Mysticer
-  page: mystcer
+#- name: Assasine
+#  page: assa
+#- name: Mysticer
+#  page: mystcer
