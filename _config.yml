@@ -1,15 +1,11 @@
 title: Bless Fertigkeiten Baum
 description: Bless Online Haltungen, Rotationen and Fertigkeiten
 theme: jekyll-theme-midnight
-root: 'Bless-Skill-Tree'
+root: 'Bless-Fertigkeiten-Baum'
 google_analytics: UA-40498224-2
 
 author:
-  name: Dominic Wroblewski
-  twitter: domness
-
-twitter:
-  username: domness
+  name: Sascha Kätterer
 
 exclude:
   - README.md
