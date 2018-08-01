@@ -1,10 +1,14 @@
 - name: Paladin
   page: paladin
-- name: Guardian
+- name: Wächter
   page: guardian
-- name: Mage
+- name: Magier
   page: mage
 - name: Berserker
   page: berserker
 - name: Ranger
   page: ranger
+- name: Assasine
+  page: assa
+- name: Mysticer
+  page: mystcer
