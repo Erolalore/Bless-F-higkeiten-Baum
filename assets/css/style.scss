@@ -1,0 +1,233 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.class-table {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+
+  img {
+    display: block;
+    margin: auto;
+    max-width: 70px;
+  }
+}
+
+#class-icon {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+// Skill Tooltips
+
+.skills {
+  margin: 15px;
+}
+
+.skill {
+  width: 120px;
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+  vertical-align: top;
+
+  img.skill-icon {
+    width: 36px;
+    height: 36px;
+    border: 2px solid white;
+    clear: both;
+  }
+
+  .skill-tooltip {
+    display: none;
+  }
+
+  .skill-title {
+    clear: both;
+    text-align: center;
+    max-width: 80px;
+    margin: auto;
+    font-size: 12px;
+  }
+}
+
+.skill img:hover + .skill-tooltip {
+  display: inline;
+  position: absolute;
+  float: left;
+  z-index: 1;
+}
+
+.rotation {
+  display: inline-block;
+  margin: 15px;
+
+  .skill {
+    width: auto;
+
+    .skill-title {
+      display: none;
+    }
+  }
+}
+
+.skill-tooltip {
+  text-align: left;
+  vertical-align: top;
+  display: inline-block;
+  font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #FFF;
+  width: 235px;
+  margin: 5px;
+  padding: 10px;
+  background: rgba(25,25,25,0.95);
+  border: 2px solid #E6E6E6;
+
+  .note {
+    color: #E6DF0B;
+  }
+
+  img.skill-image {
+    float: left;
+    display: block;
+    max-width: 36px;
+    max-height: 36px;
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 2px solid white;
+  }
+
+  .skill-name {
+    margin-top: -2px;
+    font-size: 13px;
+    float: left;
+  }
+
+  .skill-cooldown {
+    float: right;
+    display: block;
+    font-size: 13px;
+    vertical-align: middle;
+
+    img {
+      width: 12px;
+      height: 12px;
+    }
+  }
+
+  .skill-detail {
+    display: block;
+    color: #E6DF0B;
+    clear: both;
+    font-size: 13px;
+  }
+
+  .skill-description {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+}
+
+.stance-name {
+  margin-top: 15px;
+}
+
+.stance {
+  margin-bottom: 15px;
+
+  .combo.initial {
+    text-align: center;
+    display: block;
+    vertical-align: top;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #222;
+
+    .skill {
+      width: 45px;
+      height: 45px;
+
+      .skill-title {
+        display: none;
+      }
+    }
+
+    .skill.starter {
+      width: 80px;
+      height: 80px;
+      padding: 0;
+      background-image: url('../../images/combo-starter.svg');
+      background-repeat: no-repeat;
+    }
+
+    img.starter  {
+      padding: 0px;
+      margin-left: -1px;
+      margin-top: 21px;
+      width: 39px;
+      height: 39px;
+    }
+  }
+
+  .b-top {
+    border-left: 2px solid white;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    top: -3px;
+  }
+  .b-left {
+    border-top: 2px solid white;
+    position: absolute;
+    left: 50%;
+    height: 2px;
+    top: -3px;
+    width: 30px;
+  }
+  .b-middle {
+    border-top: 2px solid white;
+    position: absolute;
+    height: 2px;
+    top: -3px;
+    width: 60px;
+  }
+  .b-right {
+    border-top: 2px solid white;
+    position: absolute;
+    right: 50%;
+    height: 2px;
+    top: -3px;
+    width: 30px;
+  }
+
+  .combo {
+    text-align: center;
+    display: inline-block;
+    margin-top: 0px;
+    vertical-align: top;
+    padding-top: 15px;
+    position: relative;
+
+    .skill {
+      vertical-align: top;
+      text-align: center;
+      display: block;
+      margin: auto;
+      padding: 5px;
+      position: relative;
+    }
+  }
+}
