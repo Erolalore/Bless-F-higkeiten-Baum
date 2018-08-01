@@ -1,1 +1,68 @@
-<h1>Hallo Weld</h1>
+---
+layout: default
+title: Bless Skill Tree
+---
+
+<h2>Classes</h2>
+
+<div class='container'>
+  <div class='row'>
+    {% for class in site.data.classes %}
+    <div class='col-sm class-table'>
+
+      <a href='{{ class.page }}.html'>
+        <img src='images/class_icons/{{ class.page }}.png' />
+        {{ class.name }}
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<br/>
+
+<h2>Skills API</h2>
+
+<p>I have added a JSON endpoint that will list all the classes, available skills and non-stance skills:</p>
+<p><a href='skills.json' class='btn btn-primary'>Skills JSON</a></p>
+
+<h2>Example skill icons and tooltips</h2>
+
+<div class='skills'>
+  {% for skill in site.data.paladin.non_stance_skills %}
+    {% assign skill_data = site.data.paladin.skills | where: "slug", skill.slug | first %}
+    {% include skill.html skill=skill_data %}
+  {% endfor %}
+</div>
+
+<h2>Example rotations</h2>
+
+<p>Skill rotations could be provided in a similar format to the below to help people learn the order and priority of skills for a class.</p>
+
+<div class='rotation'>
+  {% assign rotation = site.data.paladin.rotations | where: "name", 'Example combo' | first %}
+  {% for skill in rotation.skills %}
+    {% assign skill_data = site.data.paladin.skills | where: "slug", skill | first %}
+    {% include skill.html skill=skill_data %}
+  {% endfor %}
+</div>
+
+<h2>Example skill tree</h2>
+
+<p>Skill/stance trees can be put together to show the available skills in the rhythmic combat system of Bless Online.</p>
+
+{% assign stance = site.data.paladin.stances | first %}
+<div class='stance'>
+  <div class='stance-name'>
+    <h3>{{ stance.name }}</h3>
+  </div>
+
+  {% assign skills = site.data.paladin[stance.slug] %}
+  {% for skill in skills %}
+    <div class='combo initial'>
+      {% assign skill_data = site.data.paladin.skills | where: "slug", skill.slug | first %}
+      {% include skill.html skill=skill_data starter=true  %}
+      {% include combo.html skill=skill class=site.data.paladin  toplevel=true %}
+    </div>
+  {% endfor %}
+</div>
