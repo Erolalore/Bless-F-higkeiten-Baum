@@ -1,0 +1,21 @@
+title: Bless Skill Tree
+description: Bless Online stances, rotations and skills
+theme: jekyll-theme-midnight
+root: 'Bless-Skill-Tree'
+google_analytics: UA-40498224-2
+
+author:
+  name: Dominic Wroblewski
+  twitter: domness
+
+twitter:
+  username: domness
+
+exclude:
+  - README.md
+  - package.json
+  - .gitignore
+  - Gemfile
+  - test
+
+timezone: Europe/London
