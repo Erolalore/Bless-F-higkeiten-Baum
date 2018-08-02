@@ -1,5 +1,5 @@
 - slug: locate
-  name: Locate
+  name: Lokalisieren
   image: ranger/locate.png
   cooldown: 15.00
   skill-details:
@@ -9,7 +9,7 @@
     - Disables the Sneak state of enemies lurking around you.
 
 - slug: nerve-wreck
-  name: Nerve Wreck
+  name: Nervenwrack
   image: ranger/nerve-wreck.png
   cooldown: 25.00
   crowd-control: true
@@ -21,7 +21,7 @@
     - When the enemy is hit, stuns the enemy for [[1]] second, dealing [[1209]] damage.
 
 - slug: high-angle-fire-stance
-  name: High-Angle Fire Stance
+  name: Weitwinkel schusshaltung
   image: ranger/high-angle-fire-stance.png
   skill-details:
     - Non-targeting
@@ -29,7 +29,7 @@
     - Reduces Movement Speed by [[30%]] and increases skill damage dealt to enemies [[15m]] or further away by [[10%]].
 
 - slug: dodge-move
-  name: Dodge Move
+  name: Ausweichbewegung
   image: ranger/dodge-move.png
   cooldown: 30.00
   skill-details:
@@ -39,7 +39,7 @@
     - The Crowd Control effect is dismissed, and you can move by rolling in 8 directions.
 
 - slug: steady-concentration
-  name: Steady Concentration
+  name: Sofortige Konzentration
   image: ranger/steady-concentration.png
   cooldown: 60.00
   skill-details:
@@ -49,7 +49,7 @@
     - Instantly gain [[25]] Concentration.
 
 - slug: smoke-bomb
-  name: Smoke Bomb
+  name: Rauchbombe
   image: ranger/smoke-bomb.png
   cooldown: 30.00
   skill-details:
@@ -59,7 +59,7 @@
     - Fires a Smoke Bomb, reducing the Movement Speed of enemies in the smoke by [[15%]].
 
 - slug: hunting-trap
-  name: Hunting Trap
+  name: Jagtfalle
   image: ranger/hunting-trap.png
   cooldown: 20.00
   skill-details:
@@ -70,7 +70,7 @@
     - Places a trap in the selected area. Deals [[2467]] damage to the enemy stuck in the trap, inflicting the [[Ensnare]] effect, which reduces Movement Speed by 30% for 3 seconds.
 
 - slug: barrage
-  name: Barrage
+  name: Sperrfeuer
   image: ranger/barrage.png
   cooldown: 25.00
   skill-details:
