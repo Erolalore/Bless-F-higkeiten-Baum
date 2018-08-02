@@ -36,7 +36,7 @@
     - Nicht zielgerichtet
     - Verbraucht 30 Konzentration
   skill-descriptions:
-    - Sämtliche Bewegungseinschränkende Effekte werden ignoriert und weichen durch eine Rolle in eine von 8 Richtungen aus.
+    - Sämtliche Bewegungseinschränkende Effekte werden ignoriert und du weichst durch eine Rolle in eine von 8 Richtungen aus.
 
 - slug: steady-concentration
   name: Sofortige Konzentration
@@ -67,7 +67,7 @@
     - Reichweite 12.00m
     - Verbraucht 15 Konzentration
   skill-descriptions:
-    - Places a trap in the selected area. Deals [[2467]] damage to the enemy stuck in the trap, inflicting the [[Ensnare]] effect, which reduces Movement Speed by 30% for 3 seconds.
+    - Platziert eine Falle in dem ausgewählten Bereich. Fügt dem in der Falle steckenden Gegner [[2467]] Schaden zu und fügt ihm den Effekt [[Verstricken]] zu, der die Bewegungsgeschwindigkeit 3 Sekunden lang um 30% reduziert.
 
 - slug: barrage
   name: Sperrfeuer
@@ -77,7 +77,7 @@
     - Nicht zielgerichtet
     - Verbraucht 30 Konzentration
   skill-descriptions:
-    - Creates a Protective Shield that absorbs all damage from Projectile Attacks for [[1]] second.
+    - Erschafft ein Schutzschild, das den gesamten Schaden von Projektilangriffen für [[1]] Sekunden absorbiert.
 
 - slug: barrage-1
   name: Barrage
@@ -87,7 +87,7 @@
     - Reichweite 20.00m
     - Verbraucht 20 Konzentration
   skill-descriptions:
-    - Fires a series of arrows toward the enemy, inflicting damage to the target and its surroundings. Can be used up to [[2]] times in a row. You will be pushed back a little when using the skill. Continuous use increases damage.
+    - Feuert eine Reihe von Pfeilen auf den Feind ab, die dem Ziel und seiner Umgebung Schaden zufügen. Kann bis zu [[2]] mal hintereinander verwendet werden. Sie werden ein wenig zurückgeschoben, wenn Sie die Fertigkeit verwenden. Kontinuierliche Nutzung erhöht den Schaden.
 
 - slug: launch
   name: Launch
