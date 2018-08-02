@@ -3,10 +3,10 @@
   image: ranger/locate.png
   cooldown: 15.00
   skill-details:
-    - Non-targeting
-    - Concentration 20 consumption
+    - Nicht zielgerichtet
+    - Verbraucht 20 Konzentration
   skill-descriptions:
-    - Disables the Sneak state of enemies lurking around you.
+    - Deaktiviert den Schleicheffekt von Feinden, die um dich herum lauern.
 
 - slug: nerve-wreck
   name: Nervenwrack
@@ -14,9 +14,9 @@
   cooldown: 25.00
   crowd-control: true
   skill-details:
-    - Targeting
-    - Concentration 25 consumption
-    - Range 25.00m
+    - Zielgerichtet
+    - Verbraucht 25 Konzentration
+    - Reichweite 25.00m
   skill-descriptions:
     - When the enemy is hit, stuns the enemy for [[1]] second, dealing [[1209]] damage.
 
@@ -24,7 +24,7 @@
   name: Weitwinkel schusshaltung
   image: ranger/high-angle-fire-stance.png
   skill-details:
-    - Non-targeting
+    - Nicht zielgerichtet
   skill-descriptions:
     - Reduces Movement Speed by [[30%]] and increases skill damage dealt to enemies [[15m]] or further away by [[10%]].
 
@@ -33,8 +33,8 @@
   image: ranger/dodge-move.png
   cooldown: 30.00
   skill-details:
-    - Non-targeting
-    - Concentration 30 consumption
+    - Nicht zielgerichtet
+    - Verbraucht 30 Konzentration
   skill-descriptions:
     - The Crowd Control effect is dismissed, and you can move by rolling in 8 directions.
 
@@ -43,7 +43,7 @@
   image: ranger/steady-concentration.png
   cooldown: 60.00
   skill-details:
-    - Non-targeting
+    - Nicht zielgerichtet
     - Concentration 25 obtain
   skill-descriptions:
     - Instantly gain [[25]] Concentration.
@@ -53,8 +53,8 @@
   image: ranger/smoke-bomb.png
   cooldown: 30.00
   skill-details:
-    - Non-targeting
-    - Concentration 30 consumption
+    - Nicht zielgerichtet
+    - Verbraucht 30 Konzentration
   skill-descriptions:
     - Fires a Smoke Bomb, reducing the Movement Speed of enemies in the smoke by [[15%]].
 
@@ -63,9 +63,9 @@
   image: ranger/hunting-trap.png
   cooldown: 20.00
   skill-details:
-    - Targeting
-    - Range 12.00m
-    - Concentration 15 consumption
+    - Zielgerichtet
+    - Reichweite 12.00m
+    - Verbraucht 15 Konzentration
   skill-descriptions:
     - Places a trap in the selected area. Deals [[2467]] damage to the enemy stuck in the trap, inflicting the [[Ensnare]] effect, which reduces Movement Speed by 30% for 3 seconds.
 
@@ -74,8 +74,8 @@
   image: ranger/barrage.png
   cooldown: 25.00
   skill-details:
-    - Non-targeting
-    - Concentration 30 consumption
+    - Nicht zielgerichtet
+    - Verbraucht 30 Konzentration
   skill-descriptions:
     - Creates a Protective Shield that absorbs all damage from Projectile Attacks for [[1]] second.
 
@@ -83,9 +83,9 @@
   name: Barrage
   image: ranger/barrage.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 20 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 20 Konzentration
   skill-descriptions:
     - Fires a series of arrows toward the enemy, inflicting damage to the target and its surroundings. Can be used up to [[2]] times in a row. You will be pushed back a little when using the skill. Continuous use increases damage.
 
@@ -94,9 +94,9 @@
   image: ranger/launch.png
   cooldown: 1.60
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[422]] damage to the enemy.
 
@@ -104,9 +104,9 @@
   name: Launch
   image: ranger/launch.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[422]] damage to the enemy.
 
@@ -114,9 +114,9 @@
   name: Launch
   image: ranger/launch.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[463]] damage to the enemy.
 
@@ -124,9 +124,9 @@
   name: Continuous Fire
   image: ranger/continuous-fire.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 15 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 15 Konzentration
   skill-descriptions:
     - Deals [[304]] damage in total to the enemy over [[2]] attacks.
 
@@ -134,9 +134,9 @@
   name: Continuous Fire
   image: ranger/continuous-fire.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[326]] damage in total to the enemy over [[2]] attacks.
 
@@ -144,9 +144,9 @@
   name: Continuous Fire
   image: ranger/continuous-fire.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[334]] damage in total to the enemy over [[2]] attacks.
 
@@ -154,9 +154,9 @@
   name: Mark of the Fugitive
   image: ranger/mark-of-the-fugitive.png
   skill-details:
-    - Targeting
-    - Range 15.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 15.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[508]] damage to the enemy.
 
@@ -164,9 +164,9 @@
   name: Mark of the Fugitive
   image: ranger/mark-of-the-fugitive.png
   skill-details:
-    - Targeting
-    - Range 15.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 15.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[547]] damage to the enemy.
 
@@ -174,9 +174,9 @@
   name: Mark of the Fugitive
   image: ranger/mark-of-the-fugitive.png
   skill-details:
-    - Targeting
-    - Range 15.00m
-    - Concentration 20 consumption
+    - Zielgerichtet
+    - Reichweite 15.00m
+    - Verbraucht 20 Konzentration
   skill-descriptions:
     - Deals [[547]] damage to the enemy, applying the [[Mark]] effect.
     - Increase damage dealt to enemies affected by the [[Mark]] effect.
@@ -186,9 +186,9 @@
   image: ranger/mark-of-the-fugitive.png
   cooldown: 30.00
   skill-details:
-    - Targeting
-    - Range 15.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 15.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[547]] damage to the enemy.
 
@@ -197,9 +197,9 @@
   image: ranger/prudent-shot.png
   crowd-control: true
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 20 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 20 Konzentration
   skill-descriptions:
     - Deals [[378]] damage to the enemy. You can gather power up to level [[1]].
     - When you gather power to the fullest, damage increases and the [[Stun]] effect is inflicted, making the target unable to move for [[1]] second.
@@ -209,9 +209,9 @@
   image: ranger/prudent-shot.png
   cooldown: 5.00
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 15 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 15 Konzentration
   skill-descriptions:
     - Deals [[406]] damage to the enemy. You can gather power up to level [[1]].
     - If you gather the maximuim amount of power, the damage increases. You can also gather power while moving.
@@ -220,9 +220,9 @@
   name: Prudent Shot
   image: ranger/prudent-shot.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 20 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 20 Konzentration
   skill-descriptions:
     - Deals [[406]] damage to the enemy. You can gather power up to level [[1]].
     - You can also gather power while moving. When a Critical Hit is made, the amount of Concentration spent is recovered.
@@ -231,9 +231,9 @@
   name: Prudent Shot
   image: ranger/prudent-shot.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 20 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 20 Konzentration
   skill-descriptions:
     - Deals [[416]] damage to the enemy. You can gather power up to level [[1]].
     - When you gather power to the fullest, the damage increases.
@@ -243,9 +243,9 @@
   name: Vengeful Arrow
   image: ranger/vengeful-arrow.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[1209]] damage to the enemy.
 
@@ -253,9 +253,9 @@
   name: Vengeful Arrow
   image: ranger/vengeful-arrow.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 20 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 20 Konzentration
   skill-descriptions:
     - Deals [[1238]] damage to the enemy.
 
@@ -263,9 +263,9 @@
   name: Rapid Fire
   image: ranger/rapid-fire.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 20 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 20 Konzentration
   skill-descriptions:
     - Fires [[11]] arrows rapidly toward the enemy. Deals [[254]] damage per single arrow.
 
@@ -273,9 +273,9 @@
   name: Fatal Arrow
   image: ranger/fatal-arrow.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[1536]] damage to the enemy.
 
@@ -283,8 +283,8 @@
   name: Fatal Arrow
   image: ranger/fatal-arrow.png
   skill-details:
-    - Targeting
-    - Range 20.00m
+    - Zielgerichtet
+    - Reichweite 20.00m
   skill-descriptions:
     - Consumes all remaining Concentration. Skill damage increases in proportion to consumed Concentration.
 
@@ -292,9 +292,9 @@
   name: Penetrating Shot
   image: ranger/penetrating-shot.png
   skill-details:
-    - Targeting
-    - Range 15.00m
-    - Concentration 25 consumption
+    - Zielgerichtet
+    - Reichweite 15.00m
+    - Verbraucht 25 Konzentration
   skill-descriptions:
     - Deals [[947]] damage to all enemies in a straight line ahead of you.
 
@@ -303,9 +303,9 @@
   image: ranger/moving-shot.png
   cooldown: 10.00
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[635]] damage to the enemy.
 
@@ -313,9 +313,9 @@
   name: Moving Shot
   image: ranger/moving-shot.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[45]] damage to the enemy.
 
@@ -323,9 +323,9 @@
   name: Moving Shot
   image: ranger/moving-shot.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[623]] damage to the enemy. Increase damage by [[5%]] if used while moving.
 
@@ -334,9 +334,9 @@
   image: ranger/moving-shot.png
   cooldown: 10.00
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[623]] damage to the enemy.
 
@@ -345,9 +345,9 @@
   image: ranger/moving-shot.png
   cooldown: 30.00
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[566]] damage to the enemy.
 
@@ -355,9 +355,9 @@
   name: Snipe
   image: ranger/snipe.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 40 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 40 Konzentration
   skill-descriptions:
     - Deals [[342]] damage to the enemy. You can gather power up to level [[3]], and cannot move while gathering power. The further the enemy, the greater the damage.
 
@@ -366,9 +366,9 @@
   image: ranger/snipe.png
   cooldown: 20.00s
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 20 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 20 Konzentration
   skill-descriptions:
     - Deals [[342]] damage to the enemy. You can gather power up to level [[2]], but cannot move while gathering power.
 
@@ -376,9 +376,9 @@
   name: Snipe
   image: ranger/snipe.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 40 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 40 Konzentration
   skill-descriptions:
     - Deals [[342]] damage to the enemy. You can gather power up to level [[3]], and cannot move while gathering power. The further the enemy, the greater the damage.
     - The higher your current Concentration, the higher the Hit rate.
@@ -388,9 +388,9 @@
   image: ranger/snipe.png
   cooldown: 20.00s
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 20 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 20 Konzentration
   skill-descriptions:
     - Deals [[321]] damage to the enemy. You can gather power up to level [[2]] but cannot move while gathering power.
 
@@ -398,9 +398,9 @@
   name: Arrow of Destiny
   image: ranger/arrow-of-destiny.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 20 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 20 Konzentration
   skill-descriptions:
     - Deals [[925]] damage to the enemy. Increases damage taken when the Ranger is not moving or Movement Speed has been reduced.
 
@@ -408,9 +408,9 @@
   name: Arrow of Destiny
   image: ranger/arrow-of-destiny.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[918]] damage to the enemy.
 
@@ -420,9 +420,9 @@
   cooldown: 20.00
   crowd-control: true
   skill-details:
-    - Targeting
-    - Range 15.00m
-    - Concentration 15 consumption
+    - Zielgerichtet
+    - Reichweite 15.00m
+    - Verbraucht 15 Konzentration
   skill-descriptions:
     - Deals [[269]] damage to the enemy and inflicts the [[Root]] effect, which makes it unable to move for [[1]] second.
 
@@ -430,9 +430,9 @@
   name: Binding Arrow
   image: ranger/binding-arrow.png
   skill-details:
-    - Targeting
-    - Range 15.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 15.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[254]] damage to the enemy.
 
@@ -441,9 +441,9 @@
   image: ranger/binding-arrow.png
   crowd-control: true
   skill-details:
-    - Targeting
-    - Range 15.00m
-    - Concentration 25 consumption
+    - Zielgerichtet
+    - Reichweite 15.00m
+    - Verbraucht 25 Konzentration
   skill-descriptions:
     - Deals [[262]] damage to the enemy and its surroundings. Inflicts the [[Root]] effect, rendering the target unable to move for [[1.5]] seconds.
 
@@ -453,8 +453,8 @@
   cooldown: 20.00
   crowd-control: true
   skill-details:
-    - Non-targeting
-    - Concentration 25 consumption
+    - Nicht zielgerichtet
+    - Verbraucht 25 Konzentration
   skill-descriptions:
     - Applies the [[Enhancement]] effect, which increases damage dealt to the enemy by [[5%]] for [[3]] seconds.
 
@@ -463,9 +463,9 @@
   image: ranger/spinning-arrow.png
   crowd-control: true
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 25 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 25 Konzentration
   skill-descriptions:
     - Deals [[1452]] damage to the enemy.
     - Pushes the target back by [[5m]] for each hit.
@@ -474,9 +474,9 @@
   name: Spinning Arrow
   image: ranger/spinning-arrow.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[1489]] damage to the enemy.
 
@@ -485,9 +485,9 @@
   image: ranger/spinning-arrow.png
   crowd-control: true
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 25 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 25 Konzentration
   skill-descriptions:
     - Deals [[1489]] damage to the enemy. Increase damage by [[10%]] when hit by an enemy within [[5m]].
 
@@ -495,9 +495,9 @@
   name: Strafe
   image: ranger/strafe.png
   skill-details:
-    - Targeting
-    - Range 15.00m
-    - Concentration 20 consumption
+    - Zielgerichtet
+    - Reichweite 15.00m
+    - Verbraucht 20 Konzentration
   skill-descriptions:
     - Deals [[1308]] damage to enemies within a sector area in front.
 
@@ -505,9 +505,9 @@
   name: Strafe
   image: ranger/strafe.png
   skill-details:
-    - Targeting
-    - Range 15.00m
-    - Concentration 20 consumption
+    - Zielgerichtet
+    - Reichweite 15.00m
+    - Verbraucht 20 Konzentration
   skill-descriptions:
     - Deals [[1339]] damage to enemies within a sector area in front. Inflicts damage up to [[3]] enemies.
 
@@ -515,9 +515,9 @@
   name: Poison Arrow
   image: ranger/poison-arrow.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - Deals [[532]] damage to the enemy.
 
@@ -525,9 +525,9 @@
   name: Frontal AoE
   image: ranger/poison-arrow.png
   skill-details:
-    - Targeting
-    - Range ??m
-    - Concentration ?? consumption
+    - Zielgerichtet
+    - Reichweite ??m
+    - Verbraucht ?? Konzentration
   skill-descriptions:
     - Deals [[??]] damage to the enemy.
 
@@ -537,19 +537,19 @@
   cooldown: 20.00
   skill-details:
     - Point skill
-    - Range 20.00m
-    - Concentration 20 consumption
+    - Reichweite 20.00m
+    - Verbraucht 20 Konzentration
   skill-descriptions:
-    - Fires an enormous number of arrows at the target location, causing damage over time to enemies within the area. Reduces Movement Speed of enemies within the Rain of Arrows range by [[10%]].
+    - Fires an enormous number of arrows at the target location, causing damage over time to enemies within the area. Reduces Movement Speed of enemies within the Rain of Arrows Reichweite by [[10%]].
 
 - slug: sudden-attack
   name: Sudden Attack
   image: ranger/sudden-attack.png
   cooldown: 15.00
   skill-details:
-    - Targeting
-    - Range 5.00m
-    - Concentration 15 consumption
+    - Zielgerichtet
+    - Reichweite 5.00m
+    - Verbraucht 15 Konzentration
   skill-descriptions:
     - Stabs the enemy with the hidden weapon, dealing [[521]] damage.
 
@@ -557,9 +557,9 @@
   name: Breakaway
   image: ranger/breakaway.png
   skill-details:
-    - Targeting
-    - Range 4.00m
-    - Concentration 10 consumption
+    - Zielgerichtet
+    - Reichweite 4.00m
+    - Verbraucht 10 Konzentration
   skill-descriptions:
     - You kick the enemy, dealing [[906]] damage and stepping back.
 
@@ -568,9 +568,9 @@
   image: ranger/breakaway.png
   crowd-control: true
   skill-details:
-    - Targeting
-    - Range 4.00m
-    - Concentration 20 consumption
+    - Zielgerichtet
+    - Reichweite 4.00m
+    - Verbraucht 20 Konzentration
   skill-descriptions:
     - You kick the enemy, dealing [[906]] damage, stepping back and knocking the target back [[5m]].
 
@@ -579,8 +579,8 @@
   image: ranger/explosive-trap.png
   skill-details:
     - Point skill
-    - Range 15.00m
-    - Concentration 50 consumption
+    - Reichweite 15.00m
+    - Verbraucht 50 Konzentration
   skill-descriptions:
     - Places an explosive trap at the target location. When the trap exploes, after a while, it deals [[??]] damage to enemies within a [[3m]] radius.
 
@@ -588,9 +588,9 @@
   name: Silencing Arrow
   image: ranger/silencing-arrow.png
   skill-details:
-    - Targeting
-    - Range 20.00m
-    - Concentration 20 consumption
+    - Zielgerichtet
+    - Reichweite 20.00m
+    - Verbraucht 20 Konzentration
   skill-descriptions:
     - Deals [[594]] damage to the enemy. Silences the enemy for 1.5 seconds, preventing it from casting skills. Blocks the enemy's skills in preparation.
 
@@ -599,7 +599,7 @@
   image: ranger/vertigo.png
   cooldown: 30.00
   skill-details:
-    - Non-targeting
+    - Nicht zielgerichtet
   skill-descriptions:
     - Removes the stacked [[Prudence]] effects and increases Physical Fighting Power by [[5%]] for [[5]] seconds for each removed effect.
 
@@ -607,8 +607,8 @@
   name: Scars of Defeat
   image: ranger/scars-of-defeat.png
   skill-details:
-    - Non-targeting
-    - Concentration 20 consumption
+    - Nicht zielgerichtet
+    - Verbraucht 20 Konzentration
   skill-descriptions:
     - Shoots arrows, inflicting the [[Venom]] effect on the enemy for [[10]] seconds, and then the [[Weakened Immunity]] effect for [[3]] seconds. Increases the damage dealt by the caster to enemies affected by the [[Weakened Immunity]] effect by [[3%]].
 
@@ -617,9 +617,9 @@
   image: ranger/retreating-shot.png
   cooldown: 30.00
   skill-details:
-    - Targeting
-    - Range 10.00m
-    - Concentration 15 consumption
+    - Zielgerichtet
+    - Reichweite 10.00m
+    - Verbraucht 15 Konzentration
   skill-descriptions:
     - You leap backwards, shooting arrows dealing [[865]] damage to the enemy.
 
@@ -627,8 +627,8 @@
   name: Precise Aim
   image: ranger/precise-aim.png
   skill-details:
-    - Non-targeting
-    - Concentration 25 consumption
+    - Nicht zielgerichtet
+    - Verbraucht 25 Konzentration
   skill-descriptions:
     - Aims at the enemy precisely. Increase the damage of the following skills by [[10%]] for [[5]] seconds.
 
@@ -637,8 +637,8 @@
   image: ranger/precise-aim.png
   cooldown: 20.00
   skill-details:
-    - Non-targeting
-    - Concentration 20 consumption
+    - Nicht zielgerichtet
+    - Verbraucht 20 Konzentration
   skill-descriptions:
     - Aims at the enemy precisely. Increases Critical Hit rate of the following skills by [[5%]] for [[5]] seconds.
 
