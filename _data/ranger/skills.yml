@@ -18,7 +18,7 @@
     - Verbraucht 25 Konzentration
     - Reichweite 25.00m
   skill-descriptions:
-    - When the enemy is hit, stuns the enemy for [[1]] second, dealing [[1209]] damage.
+    - Wenn der Gegner getroffen wird, wird er für [[1]] Sekunde betäubt und erleidet [[1209]] Schaden.
 
 - slug: high-angle-fire-stance
   name: Weitwinkel schusshaltung
@@ -26,7 +26,7 @@
   skill-details:
     - Nicht zielgerichtet
   skill-descriptions:
-    - Reduces Movement Speed by [[30%]] and increases skill damage dealt to enemies [[15m]] or further away by [[10%]].
+    - Erhöht den Schaden am Gegner und verringert die Bewegungsgeschwindigkeit bei Gegnern innerhalb vun [[15m]] um [[30%]] oder weiter entfernt um [[10%]].
 
 - slug: dodge-move
   name: Ausweichbewegung
@@ -36,7 +36,7 @@
     - Nicht zielgerichtet
     - Verbraucht 30 Konzentration
   skill-descriptions:
-    - The Crowd Control effect is dismissed, and you can move by rolling in 8 directions.
+    - Sämtliche Bewegungseinschränkende Effekte werden ignoriert und weichen durch eine Rolle in eine von 8 Richtungen aus.
 
 - slug: steady-concentration
   name: Sofortige Konzentration
@@ -44,9 +44,9 @@
   cooldown: 60.00
   skill-details:
     - Nicht zielgerichtet
-    - Concentration 25 obtain
+    - Regeneriert 25 Konzentration
   skill-descriptions:
-    - Instantly gain [[25]] Concentration.
+    - Bekomme sofort [[25]] Konzentration.
 
 - slug: smoke-bomb
   name: Rauchbombe
